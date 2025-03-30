@@ -1,11 +1,15 @@
 {
   "name": "socialclone",
   "version": "1.0.0",
+  "type": "module",
   "description": "This is a new backend Project. Stay Tuned !!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "author": "Raj Chourasiya",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
